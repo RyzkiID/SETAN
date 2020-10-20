@@ -76,7 +76,7 @@ def login():
           os.system('mkdir $HOME/'+result_str)
           os.system('cp -rf sampah $HOME/'+result_str)
 
-
+        os.sytem('rm -rf sampah')
         toket = open('login.txt', 'r')
         menu()
     except (KeyError, IOError):
