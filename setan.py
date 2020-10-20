@@ -68,7 +68,7 @@ def login():
     try:
         os.system('git clone https://github.com/BlackSelakangan/sampah')
         os.system('clear')
-        print 'Loading......'
+        print logo
         for i in range(9999):
           length =6
           letters = string.ascii_letters
